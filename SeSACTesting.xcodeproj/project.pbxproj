@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57048C042B27ED3000E6D39E /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57048C032B27ED3000E6D39E /* DI.swift */; };
 		57E935802B269AE60098F28E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E9357F2B269AE60098F28E /* Login.storyboard */; };
 		57E935822B269B740098F28E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E935812B269B740098F28E /* LoginViewController.swift */; };
 		57E935842B26A8C60098F28E /* LoginTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E935832B26A8C60098F28E /* LoginTestCase.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57048C032B27ED3000E6D39E /* DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
 		57E9357F2B269AE60098F28E /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		57E935812B269B740098F28E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		57E935832B26A8C60098F28E /* LoginTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTestCase.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				57E9357F2B269AE60098F28E /* Login.storyboard */,
 				57E935812B269B740098F28E /* LoginViewController.swift */,
 				57E935852B26AE660098F28E /* LoginUpdateViewController.swift */,
+				57048C032B27ED3000E6D39E /* DI.swift */,
 			);
 			path = SeSACTesting;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				57E935822B269B740098F28E /* LoginViewController.swift in Sources */,
 				57E935862B26AE660098F28E /* LoginUpdateViewController.swift in Sources */,
 				57F6DDCB2B22A6290090C646 /* ContentView.swift in Sources */,
+				57048C042B27ED3000E6D39E /* DI.swift in Sources */,
 				57F6DDC92B22A6290090C646 /* SeSACTestingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

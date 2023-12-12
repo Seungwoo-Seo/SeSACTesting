@@ -16,6 +16,9 @@ final class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let kokojong: 주방장레시피 = 코코종()
+        let food: 중국집 = 코종반점(주인: kokojong)
+        let hue = 휴님(중국집: food)
     }
 
     @IBAction func didTapButton(_ sender: UIButton) {
