@@ -41,6 +41,14 @@ struct ContentView: View {
         .sheet(isPresented: $showPage) {
             NextView()
         }
+        .onAppear {
+            NetworkManager.shared.fetchLotto { lotto in
+                lotto.bnusNO
+                lotto.drwtNo1
+                lotto.drwNoDate
+            }
+        }
+
     }
 }
 

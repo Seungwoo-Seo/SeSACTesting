@@ -106,19 +106,3 @@ class 코코종: 주방장레시피 {
 }
 
 // => 구현체가 아닌 인터페이스 추상화에 의존한다
-
-
-// 인터넷이 연결이 되어 있어야만 테스트가 성공하겠군 -> X
-// 외부환경에 영향을 받으면 안됌
-
-protocol NetworkProvider {
-    func fetchLotto()
-}
-
-// 네트워크를 테스트할 때는, Mock데이터를 통해 실제 네트워크 통신을 하지 않고 테스트를 진행하는 것이 적합
-
-class NetworkManager: NetworkProvider {
-    func fetchLotto() { // 실제 네트워크 통신을 진행하는 부분
-
-    }
-}
